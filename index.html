@@ -11,11 +11,11 @@
   <!-- Open Graph -->
   <meta property="og:title" content="Tanishka Shrivastav | Graphic Design Portfolio">
   <meta property="og:description" content="Explore bold event posters, editorial carousels, and visual identity projects by Tanishka Shrivastav.">
-  <meta property="og:image" content="assets/tanishka_avatar.jpg">
+  <meta property="og:image" content="https://ik.imagekit.io/z7uqdpifg/tanu-portfolio/tanishka_avatar.jpg">
   <meta property="og:type" content="website">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23ff3366'/><text x='50' y='68' font-size='50' font-weight='900' fill='white' text-anchor='middle' font-family='sans-serif'>TS</text></svg>">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23ff2a5f'/><text x='50' y='68' font-size='50' font-weight='900' fill='white' text-anchor='middle' font-family='sans-serif'>TS</text></svg>">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +30,7 @@
   <div class="ambient-glow orb-2"></div>
   <div class="ambient-glow orb-3"></div>
 
-  <!-- Custom Cursor Glow -->
+  <!-- Custom Cursor Glow (visible only on desktop mousemove) -->
   <div class="cursor-dot" id="cursorDot"></div>
   <div class="cursor-glow" id="cursorGlow"></div>
 
@@ -43,13 +43,13 @@
       <span class="star">✦</span>
       <span>NATIONAL ENTREPRENEURSHIP CHALLENGE DESIGN CONTRIBUTOR</span>
       <span class="star">✦</span>
+      <span>CALL / WHATSAPP: +91 6264535307</span>
+      <span class="star">✦</span>
       <span>EVENT BRANDING • SOCIAL CAROUSELS • PITCH DECKS</span>
       <span class="star">✦</span>
-      <span>AVAILABLE FOR 2025-2026 PROJECTS</span>
+      <span>EMAIL: SHRIVASTAT983@GMAIL.COM</span>
       <span class="star">✦</span>
       <span>🚀 OPEN FOR FREELANCE & BRAND COLLABORATIONS</span>
-      <span class="star">✦</span>
-      <span>LEAD GRAPHIC DESIGNER AT LNCTE E-CELL</span>
       <span class="star">✦</span>
     </div>
   </div>
@@ -105,8 +105,8 @@
               <span>Explore My Work</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
             </a>
-            <a href="#contact" class="btn btn-outline btn-lg">
-              <span>Book a Consultation</span>
+            <a href="https://wa.me/916264535307?text=Hi%20Tanishka,%20I%20saw%20your%20portfolio%20and%20would%20love%20to%20discuss%20a%20design%20project!" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">
+              <span>Chat on WhatsApp</span>
             </a>
           </div>
 
@@ -131,7 +131,7 @@
         <div class="hero-visual">
           <div class="hero-card-stack">
             <div class="hero-avatar-card">
-              <img src="assets/tanishka_avatar.jpg" alt="Tanishka Shrivastav Graphic Designer" class="avatar-img">
+              <img src="https://ik.imagekit.io/z7uqdpifg/tanu-portfolio/tanishka_avatar.jpg" alt="Tanishka Shrivastav Graphic Designer" class="avatar-img" onerror="this.src='assets/tanishka_avatar.jpg'">
               <div class="avatar-glass-overlay">
                 <div class="avatar-info">
                   <h4>Tanishka Shrivastav</h4>
@@ -169,7 +169,7 @@
           <div class="section-tag">PORTFOLIO SHOWCASE</div>
           <h2 class="section-title">Selected Design Works</h2>
           <p class="section-desc">
-            Explore live event branding, multi-page viral storytelling carousels, editorial decks, and marketing posters created for flagship college summits and entrepreneurship challenges.
+            Explore live event branding, multi-page viral storytelling carousels, editorial decks, and marketing posters created for flagship college summits and entrepreneurship challenges. <em>(Click any project to expand slides and detailed concepts)</em>.
           </p>
         </div>
 
@@ -185,12 +185,12 @@
         <div class="projects-grid" id="projectsGrid">
 
           <!-- Project 1: Airbnb Carousel (Multi-slide) -->
-          <article class="project-card featured-project" data-category="editorial" data-id="airbnb-carousel">
+          <article class="project-card featured-project" data-category="editorial" data-id="airbnb-carousel" onclick="openProjectModal('airbnb-carousel')">
             <div class="project-media-wrap">
-              <img src="assets/thumbs/They Couldn_t Afford Rent_p1.webp" alt="They Couldn't Afford Rent - Airbnb Story Carousel" class="project-thumb" loading="lazy">
+              <img src="https://ik.imagekit.io/z7uqdpifg/tanu-portfolio/thumb_They_Couldn_t_Afford_Rent_p1.webp" alt="They Couldn't Afford Rent - Airbnb Story Carousel" class="project-thumb" loading="lazy" onerror="this.src='assets/thumbs/They Couldn_t Afford Rent_p1.webp'">
               <div class="project-overlay">
-                <button class="view-btn" aria-label="Open project details">
-                  <span>View 4-Slide Carousel</span>
+                <button type="button" class="view-btn" onclick="openProjectModal('airbnb-carousel'); event.stopPropagation();" aria-label="Open project details">
+                  <span>Open 4-Slide Carousel</span>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
                 </button>
               </div>
@@ -215,11 +215,11 @@
           </article>
 
           <!-- Project 2: Blockchain Blitz -->
-          <article class="project-card" data-category="posters" data-id="blockchain-blitz">
+          <article class="project-card" data-category="posters" data-id="blockchain-blitz" onclick="openProjectModal('blockchain-blitz')">
             <div class="project-media-wrap">
-              <img src="assets/thumbs/LNCTE ECELL PRESENTS_p1.webp" alt="Blockchain Blitz Flagship Poster" class="project-thumb" loading="lazy">
+              <img src="https://ik.imagekit.io/z7uqdpifg/tanu-portfolio/thumb_LNCTE_ECELL_PRESENTS_p1.webp" alt="Blockchain Blitz Flagship Poster" class="project-thumb" loading="lazy" onerror="this.src='assets/thumbs/LNCTE ECELL PRESENTS_p1.webp'">
               <div class="project-overlay">
-                <button class="view-btn" aria-label="Open project details">
+                <button type="button" class="view-btn" onclick="openProjectModal('blockchain-blitz'); event.stopPropagation();" aria-label="Open project details">
                   <span>View Event Poster</span>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
                 </button>
@@ -244,11 +244,11 @@
           </article>
 
           <!-- Project 3: E-Summit Pass Reveal -->
-          <article class="project-card" data-category="posters" data-id="pass-reveal">
+          <article class="project-card" data-category="posters" data-id="pass-reveal" onclick="openProjectModal('pass-reveal')">
             <div class="project-media-wrap">
-              <img src="assets/thumbs/poster_1.webp" alt="E-Summit '25 Get Your Pass Poster" class="project-thumb" loading="lazy">
+              <img src="https://ik.imagekit.io/z7uqdpifg/tanu-portfolio/thumb_poster_1.webp" alt="E-Summit '25 Get Your Pass Poster" class="project-thumb" loading="lazy" onerror="this.src='assets/thumbs/poster_1.webp'">
               <div class="project-overlay">
-                <button class="view-btn" aria-label="Open project details">
+                <button type="button" class="view-btn" onclick="openProjectModal('pass-reveal'); event.stopPropagation();" aria-label="Open project details">
                   <span>View Pass Poster</span>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
                 </button>
@@ -273,11 +273,11 @@
           </article>
 
           <!-- Project 4: Case Study Competition -->
-          <article class="project-card" data-category="posters" data-id="case-study-comp">
+          <article class="project-card" data-category="posters" data-id="case-study-comp" onclick="openProjectModal('case-study-comp')">
             <div class="project-media-wrap">
-              <img src="assets/thumbs/poster_whatsapp.webp" alt="Case Study Competition Poster" class="project-thumb" loading="lazy">
+              <img src="https://ik.imagekit.io/z7uqdpifg/tanu-portfolio/thumb_poster_whatsapp.webp" alt="Case Study Competition Poster" class="project-thumb" loading="lazy" onerror="this.src='assets/thumbs/poster_whatsapp.webp'">
               <div class="project-overlay">
-                <button class="view-btn" aria-label="Open project details">
+                <button type="button" class="view-btn" onclick="openProjectModal('case-study-comp'); event.stopPropagation();" aria-label="Open project details">
                   <span>View Competition Poster</span>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
                 </button>
@@ -302,11 +302,11 @@
           </article>
 
           <!-- Project 5: The Spark Presentation & Blog Banner -->
-          <article class="project-card" data-category="editorial" data-id="the-spark">
+          <article class="project-card" data-category="editorial" data-id="the-spark" onclick="openProjectModal('the-spark')">
             <div class="project-media-wrap landscape">
-              <img src="assets/thumbs/PRESENTATION_p1.webp" alt="The Spark Finding A Startup-Worthy Idea Slide" class="project-thumb" loading="lazy">
+              <img src="https://ik.imagekit.io/z7uqdpifg/tanu-portfolio/thumb_PRESENTATION_p1.webp" alt="The Spark Finding A Startup-Worthy Idea Slide" class="project-thumb" loading="lazy" onerror="this.src='assets/thumbs/PRESENTATION_p1.webp'">
               <div class="project-overlay">
-                <button class="view-btn" aria-label="Open project details">
+                <button type="button" class="view-btn" onclick="openProjectModal('the-spark'); event.stopPropagation();" aria-label="Open project details">
                   <span>View Presentation Deck</span>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
                 </button>
@@ -331,11 +331,11 @@
           </article>
 
           <!-- Project 6: Stand Up Comedy Poster -->
-          <article class="project-card" data-category="campaigns" data-id="comedy-teaser">
+          <article class="project-card" data-category="campaigns" data-id="comedy-teaser" onclick="openProjectModal('comedy-teaser')">
             <div class="project-media-wrap">
-              <img src="assets/thumbs/coming_p1.webp" alt="Stand Up Comedy Teaser Poster" class="project-thumb" loading="lazy">
+              <img src="https://ik.imagekit.io/z7uqdpifg/tanu-portfolio/thumb_coming_p1.webp" alt="Stand Up Comedy Teaser Poster" class="project-thumb" loading="lazy" onerror="this.src='assets/thumbs/coming_p1.webp'">
               <div class="project-overlay">
-                <button class="view-btn" aria-label="Open project details">
+                <button type="button" class="view-btn" onclick="openProjectModal('comedy-teaser'); event.stopPropagation();" aria-label="Open project details">
                   <span>View Teaser Poster</span>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
                 </button>
@@ -360,11 +360,11 @@
           </article>
 
           <!-- Project 7: Bulk Reveal / Satin Pedestal -->
-          <article class="project-card" data-category="campaigns" data-id="bulk-reveal">
+          <article class="project-card" data-category="campaigns" data-id="bulk-reveal" onclick="openProjectModal('bulk-reveal')">
             <div class="project-media-wrap">
-              <img src="assets/thumbs/BULK_p1.webp" alt="Competition Dates Coming Soon Poster" class="project-thumb" loading="lazy">
+              <img src="https://ik.imagekit.io/z7uqdpifg/tanu-portfolio/thumb_BULK_p1.webp" alt="Competition Dates Coming Soon Poster" class="project-thumb" loading="lazy" onerror="this.src='assets/thumbs/BULK_p1.webp'">
               <div class="project-overlay">
-                <button class="view-btn" aria-label="Open project details">
+                <button type="button" class="view-btn" onclick="openProjectModal('bulk-reveal'); event.stopPropagation();" aria-label="Open project details">
                   <span>View Unveil Poster</span>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
                 </button>
@@ -397,7 +397,7 @@
       <div class="container about-container">
         <div class="about-visual">
           <div class="about-image-wrapper">
-            <img src="assets/tanishka_avatar.jpg" alt="Tanishka Shrivastav at work" class="about-avatar">
+            <img src="https://ik.imagekit.io/z7uqdpifg/tanu-portfolio/tanishka_avatar.jpg" alt="Tanishka Shrivastav at work" class="about-avatar" onerror="this.src='assets/tanishka_avatar.jpg'">
             <div class="experience-card">
               <span class="exp-number">E-Cell</span>
               <span class="exp-text">Design Team Lead & Visual Strategist</span>
@@ -602,20 +602,22 @@
           </p>
 
           <div class="direct-contact-cards">
-            <a href="https://wa.me/917643921187?text=Hi%20Tanishka,%20I%20saw%20your%20graphic%20design%20portfolio%20and%20would%20love%20to%20discuss%20a%20project!" target="_blank" rel="noopener noreferrer" class="contact-channel-card whatsapp">
+            <!-- Updated Phone / WhatsApp -->
+            <a href="https://wa.me/916264535307?text=Hi%20Tanishka,%20I%20saw%20your%20graphic%20design%20portfolio%20and%20would%20love%20to%20discuss%20a%20project!" target="_blank" rel="noopener noreferrer" class="contact-channel-card whatsapp">
               <div class="channel-icon">💬</div>
               <div class="channel-info">
-                <strong>WhatsApp Direct</strong>
-                <span>+91 76439 21187</span>
+                <strong>WhatsApp / Call Direct</strong>
+                <span>+91 6264535307</span>
               </div>
               <span class="channel-arrow">→</span>
             </a>
 
-            <a href="mailto:tanishkashrivastav@gmail.com?subject=Design%20Inquiry%20from%20Portfolio" class="contact-channel-card email">
+            <!-- Updated Email -->
+            <a href="mailto:shrivastavat983@gmail.com?subject=Design%20Inquiry%20from%20Portfolio" class="contact-channel-card email">
               <div class="channel-icon">✉️</div>
               <div class="channel-info">
-                <strong>Email Inquiry</strong>
-                <span>tanishkashrivastav@gmail.com</span>
+                <strong>Direct Email</strong>
+                <span>shrivastavat983@gmail.com</span>
               </div>
               <span class="channel-arrow">→</span>
             </a>
@@ -623,17 +625,17 @@
             <div class="contact-channel-card ecell">
               <div class="channel-icon">🏛️</div>
               <div class="channel-info">
-                <strong>LNCTE E-Cell Office</strong>
-                <span>ecell_lncte@lnct.ac.in</span>
+                <strong>Campus Lead & Affiliation</strong>
+                <span>Lead Designer • LNCTE E-Cell</span>
               </div>
-              <span class="channel-badge">Campus Lead</span>
+              <span class="channel-badge">E-Cell</span>
             </div>
           </div>
         </div>
 
         <div class="contact-form-card">
           <h3>Send a Quick Project Brief</h3>
-          <p class="form-subtext">Fill in the details below, and it will immediately generate your personalized inquiry ready to send via WhatsApp or Email.</p>
+          <p class="form-subtext">Fill in the details below to immediately send your personalized inquiry to Tanishka via WhatsApp or Email.</p>
 
           <form id="projectBriefForm" class="contact-form">
             <div class="form-group">
@@ -684,7 +686,7 @@
         <p>© 2026 Tanishka Shrivastav. All Graphic Works & Collaterals Reserved.</p>
       </div>
       <div class="footer-center">
-        <span>Designed with bold passion for visual excellence.</span>
+        <span>Contact: +91 6264535307 • shrivastavat983@gmail.com</span>
       </div>
       <div class="footer-right">
         <a href="#hero" class="back-to-top" aria-label="Back to top">
@@ -698,7 +700,7 @@
   <!-- Project Lightbox Modal -->
   <div class="modal-backdrop" id="projectModal" aria-hidden="true" role="dialog">
     <div class="modal-container">
-      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">✕</button>
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" onclick="closeProjectModal()" aria-label="Close modal">✕</button>
 
       <div class="modal-content">
         <div class="modal-media-stage">
@@ -706,11 +708,11 @@
             <img src="" alt="" id="modalMainImg" class="modal-active-slide">
           </div>
 
-          <!-- Carousel Controls (active when multiple slides exist) -->
+          <!-- Carousel Controls -->
           <div class="slider-nav" id="sliderNav">
-            <button class="slide-nav-btn prev" id="slidePrevBtn" aria-label="Previous slide">‹</button>
+            <button type="button" class="slide-nav-btn prev" id="slidePrevBtn" onclick="prevSlide(); event.stopPropagation();" aria-label="Previous slide">‹</button>
             <span class="slide-counter" id="slideCounter">1 / 4</span>
-            <button class="slide-nav-btn next" id="slideNextBtn" aria-label="Next slide">›</button>
+            <button type="button" class="slide-nav-btn next" id="slideNextBtn" onclick="nextSlide(); event.stopPropagation();" aria-label="Next slide">›</button>
           </div>
 
           <!-- Thumbnails Strip -->
@@ -743,12 +745,12 @@
           </div>
 
           <div class="modal-cta-row">
-            <a href="#" id="modalPdfBtn" class="btn btn-outline btn-sm" target="_blank" download>
+            <a href="#" id="modalPdfBtn" class="btn btn-outline btn-sm" target="_blank" rel="noopener noreferrer">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-              <span>Download / View Original PDF</span>
+              <span>View Original PDF Source</span>
             </a>
-            <a href="#contact" class="btn btn-primary btn-sm" onclick="closeModalAndContact()">
-              <span>Commission Similar Work</span>
+            <a href="https://wa.me/916264535307?text=Hi%20Tanishka,%20I%20love%20your%20work%20and%20want%20to%20discuss%20a%20project!" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+              <span>Commission Work on WhatsApp</span>
             </a>
           </div>
         </div>
