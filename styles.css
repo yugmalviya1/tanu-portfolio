@@ -102,6 +102,10 @@ body {
 }
 
 /* Custom Interactive Cursor Glow */
+.cursor-dot, .cursor-glow {
+  display: none;
+}
+
 .cursor-dot {
   width: 8px;
   height: 8px;
@@ -1332,7 +1336,7 @@ body {
   background: rgba(5, 5, 10, 0.88);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  z-index: 1000;
+  z-index: 999999;
   display: flex;
   align-items: center;
   justify-content: center;
