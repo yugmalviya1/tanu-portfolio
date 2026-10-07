@@ -124,7 +124,6 @@ let currentSlideIndex = 0;
 
 // Primary App Initialization
 function initApp() {
-  initCustomCursor();
   initNavbar();
   initFilters();
   initProjectCards();
